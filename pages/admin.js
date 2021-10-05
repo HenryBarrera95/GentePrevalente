@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { Navbar } from '../components/Navbar';
-import { Aprobacion } from '../components/Aprobacion';
+import Navbar from '../components/Navbar';
+import Aprobacion from '../components/Aprobacion';
 
 export default function Main() {
   return (
