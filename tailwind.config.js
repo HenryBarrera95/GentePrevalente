@@ -38,6 +38,12 @@ module.exports = {
         FaSize: ["40px"],
         Fa2Size: ["56px"],
       },
+      gridAutoColumns: {
+        '2fr': 'minmax(1fr, 2fr)',
+      },
+      gridAutoRows: {
+        '2fr': 'minmax(1fr, 2fr)',
+      },
 
       spacing: {
         sp1: "1px",
@@ -54,6 +60,7 @@ module.exports = {
         sp19: "19px",
         sp20: "20px",
         sp24: "24px",
+        sp26: "26px",
         sp27: "27px",
         sp28: "28px",
         sp30: "30px",
@@ -62,10 +69,12 @@ module.exports = {
         sp37: "37px",        
         sp38: "38px",
         sp40: "40px",
+        sp42: "42px",
         sp45: "45px",
         sp46: "46px",
         sp51: "51px",
         sp57: "57px",
+        sp60: "60px",
         sp61: "61px",
         sp62: "62px",
         sp67: "67px",
@@ -85,14 +94,17 @@ module.exports = {
         sp126: "126px",
         sp130: "130px",
         sp132: "132px",
+        sp138: "138px",
         sp140: "140px",
         sp145: "145px",
         sp151: "151px",
         sp160: "160px",
         sp174: "174px",
         sp175: "175px",
+        sp184: "184px",
         sp200: "200px",
         sp223: "223px",
+        sp228: "228px",
         sp237: "237px",
         sp260: "260px",
         sp291: "291px",
@@ -102,6 +114,11 @@ module.exports = {
         sp390: "390px",
         sp457: "457px",
         sp550: "550px",
+        sp734: "734px",
+        sp890: "890px",
+        sp942: "942px",
+        
+        
         sp1175: "1175px"
       },
     },

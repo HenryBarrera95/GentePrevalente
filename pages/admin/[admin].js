@@ -1,8 +1,9 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Approval from "../components/Approval";
+import Navbar from "../../components/Navbar";
+import Approval from "../../components/Approval";
 
-export default function Main() {
+const admin=() => {
+
   return (
     <div className="bg-cover bg-grayGDM">
       <Head>
@@ -13,4 +14,6 @@ export default function Main() {
       <Approval />
     </div>
   );
+
 }
+export default admin;

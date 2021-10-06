@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2 mx-sp15 lg:mx-sp140 mt-sp80 lg:mt-sp110">
-        <Link href="/admin">
+        <Link href="/admin/0">
           <a>
             <figure className="shadow-box mx-auto bg-white rounded-xl h-sp145 w-sp345 lg:h-sp330 lg:w-sp550">
               <div className="flex lg:flex-col">
