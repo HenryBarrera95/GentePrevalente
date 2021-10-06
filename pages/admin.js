@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Navbar from '../components/Navbar';
-import Aprobacion from '../components/Aprobacion';
+import Head from "next/head";
+import Navbar from "../components/Navbar";
+import Approval from "../components/Approval";
 
 export default function Main() {
   return (
@@ -10,7 +10,7 @@ export default function Main() {
         <link rel="icon" href="/Logo.ico" />
       </Head>
       <Navbar />
-      <Aprobacion />  
+      <Approval />
     </div>
-  )
+  );
 }

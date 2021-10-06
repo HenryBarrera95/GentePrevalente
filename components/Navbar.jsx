@@ -20,11 +20,8 @@ const Navbar = () => {
       <nav className="h-16 flex items-center flex-wrap  bg-navbar-gray">
         <Link href="/">
           <a className="inline-flex items-center">
-            <img
-              className="lg:ml-10 transform scale-40"
-              src="/items/BrainLogo.png"
-            ></img>
-            <span className="text-white text-brain font-bold mr-6">
+            <img className="lg:ml-10" src="/items/BrainLogo.png"></img>
+            <span className="text-white text-brain font-bold">
               Gente PreValente
             </span>
           </a>
@@ -33,14 +30,15 @@ const Navbar = () => {
         <div className="invisible lg:visible">
           <FaSearch className="text-white text-brain ml-sp114 mr-sp6 inline-flex" />
           <input
-            className="bg-navbar-gray"
+            className="ml-sp6 bg-navbar-gray border border-transparent focus:placeholder-transparent 
+            focus:text-white focus:outline-none focus:ring-transparent focus:border-transparent"
             type="text"
             placeholder="Buscar..."
           ></input>
         </div>
 
         <button
-          className="inline-flex px-10 hover:bg-gray-700 rounded lg:hidden text-white ml-auto hover:text-white outline-none"
+          className="inline-flex px-10 rounded lg:hidden ml-auto text-white hover:text-white hover:bg-gray-700"
           onClick={handleClick}
         >
           <svg
@@ -103,5 +101,5 @@ const Navbar = () => {
       </nav>
     </>
   );
-}
+};
 export default Navbar;
