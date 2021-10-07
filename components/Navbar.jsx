@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
 
         <button
-          className="inline-flex px-10 rounded lg:hidden ml-auto text-white hover:text-white hover:bg-gray-700"
+          className="inline-flex mr-10 rounded lg:hidden ml-auto text-white hover:text-white"
           onClick={handleClick}
         >
           <svg
