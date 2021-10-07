@@ -1,8 +1,9 @@
+import { PrismaClient } from "@prisma/client";
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Approval from "../../components/Approval";
 
-import prisma from "../../db";
+const prisma = new PrismaClient()
 
 const Admin = ({ empresas }) => {
   return (
