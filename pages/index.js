@@ -2,8 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 
-const Main=() => {
-
+const Main = () => {
   return (
     <div className="bg-cover bg-grayGDM">
       <Head>
@@ -14,5 +13,5 @@ const Main=() => {
       <Home />
     </div>
   );
-}
+};
 export default Main;

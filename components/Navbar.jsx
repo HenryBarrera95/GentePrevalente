@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="h-16 flex items-center flex-wrap  bg-navbar-gray">
+      <nav className="h-16 flex items-center bg-navbar-gray relative">
         <Link href="/">
           <a className="inline-flex items-center">
             <img className="lg:ml-10" src="/items/BrainLogo.png"></img>
@@ -58,10 +58,10 @@ const Navbar = () => {
         </button>
         <div
           className={`${
-            active ? "" : "hidden"
+            active ? "absolute mt-sp220 " : "hidden"
           } z-50 lg:ml-10 w-full lg:inline-flex lg:flex-grow lg:w-auto bg-navbar-gray`}
         >
-          <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto  w-full lg:items-center items-start  flex flex-col ">
+          <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto  w-full lg:items-center items-start flex flex-col ">
             <Link href="/">
               <a className="flex lg:inline-flex lg:w-auto w-full text-brain px-7 py-2 rounded text-white items-center lg:justify-center hover:bg-gray-700">
                 <FaCogs className="text-white mr-2" />

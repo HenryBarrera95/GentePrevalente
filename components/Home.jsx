@@ -7,6 +7,8 @@ import {
   FaUsersCog,
 } from "react-icons/fa";
 
+
+
 const Home = () => {
   return (
     <>
@@ -91,5 +93,5 @@ const Home = () => {
       </div>
     </>
   );
-}
+};
 export default Home;
