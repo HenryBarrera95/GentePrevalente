@@ -9,12 +9,12 @@ datasource db {
 }
 
 model empresas {
-  id             String  @id @default(dbgenerated()) @map("_id") @db.ObjectId
-  aprobado       Boolean
+  id             String @id @default(dbgenerated()) @map("_id") @db.ObjectId
   identificacion String
   logo           String
   nit            String
   nombre         String
   num_empleados  Int
   razon_social   String
+  status         String
 }

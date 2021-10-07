@@ -18,9 +18,9 @@ const Admin = ({ empresas }) => {
   );
 };
 
-export async function getServerSideProps({ params }) {
+export async function getServerSideProps() {
   const empresas = await prisma.empresas.findMany({
-    where: { aprobado: false }
+    where: { status: "pendiente" }
   });
   return {
     props: { empresas },

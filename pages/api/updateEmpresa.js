@@ -4,7 +4,8 @@ const prisma = new PrismaClient()
 
 export default async (req, res) => {
   const {
-    id
+    id,
+    status
   } = req.body;
   try {
     const updateEmpresa = await prisma.empresas.update({
@@ -12,7 +13,7 @@ export default async (req, res) => {
         id,
       },
       data: {
-        aprobado: true
+        status
       },
     });
     res.status(200).json(updateEmpresa);
